@@ -1,156 +1,61 @@
-/* Global styles */
 body {
-	font-family: Arial, sans-serif;
-	font-size: 16px;
-	line-height: 1.5;
-	margin: 0;
-	padding: 0;
+  background-image: url('https://media.giphy.com/media/rSTZI4659jiC2Cr6FH/giphy-downsized-large.gif');
+  background-size: cover;
 }
 
-h1, h2, h3, h4, h5, h6 {
-	margin: 0;
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  opacity: 0.8;
 }
 
-a {
-	color: #0077cc;
-	text-decoration: none;
+h1, h2 {
+  font-family: Arial, sans-serif;
+  text-align: center;
 }
 
-a:hover {
-	text-decoration: underline;
+h1 {
+  font-size: 3rem;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
 }
 
-img {
-	max-width: 100%;
-	height: auto;
-	display: block;
-	margin: 0 auto;
+h2 {
+  font-size: 2rem;
+  color: #000;
 }
 
-/* Header styles */
-header {
-	background-color: #f7f7f7;
-	padding: 1rem;
+button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
 }
 
-nav {
-	float: right;
+button:hover {
+  background-color: #666;
 }
 
-ul {
-	list-style: none;
-	margin: 0;
-	padding: 0;
+#researchers {
+  background-image: url('https://media.giphy.com/media/yQltwC4N8nzOE1WdDW/giphy-downsized-large.gif');
+  background-size: cover;
 }
 
-li {
-	display: inline-block;
-	margin-left: 1rem;
+#public {
+  background-image: url('https://media.giphy.com/media/JMlIy2LIUY6j8vG4FW/giphy.gif');
+  background-size: cover;
 }
 
-/* Hero section styles */
-#hero {
-	background-color: #0077cc;
-	color: #fff;
-	padding: 3rem;
-	text-align: center;
-}
-
-#hero h2 {
-	margin-top: 0;
-	font-size: 2.5rem;
-	line-height: 1.2;
-}
-
-#hero p {
-	font-size: 1.2rem;
-	margin: 2rem auto;
-	max-width: 50rem;
-}
-
-.cta {
-	background-color: #fff;
-	color: #0077cc;
-	display: inline-block;
-	font-size: 1.2rem;
-	margin-top: 1.5rem;
-	padding: 0.75rem 1.5rem;
-	text-align: center;
-	text-transform: uppercase;
-	transition: background-color 0.2s ease, color 0.2s ease;
-}
-
-.cta:hover {
-	background-color: #0077cc;
-	color: #fff;
-}
-
-/* About section styles */
-#about {
-	background-color: #f7f7f7;
-	padding: 3rem;
-	text-align: center;
-}
-
-#about h2 {
-	margin-top: 0;
-	font-size: 2.5rem;
-	line-height: 1.2;
-}
-
-#about p {
-	font-size: 1.2rem;
-	margin: 2rem auto;
-	max-width: 50rem;
-}
-
-/* Research section styles */
-#research {
-	background-color: #fff;
-	padding: 3rem;
-	text-align: center;
-}
-
-#research h2 {
-	margin-top: 0;
-	font-size: 2.5rem;
-	line-height: 1.2;
-}
-
-#research p {
-	font-size: 1.2rem;
-	margin: 2rem auto;
-	max-width: 50rem;
-}
-
-/* Community section styles */
-#community {
-	background-color: #f7f7f7;
-	padding: 3rem;
-	text-align: center;
-}
-
-#community h2 {
-	margin-top: 0;
-	font-size: 2.5rem;
-	line-height: 1.2;
-}
-
-#community p {
-	font-size: 1.2rem;
-	margin: 2rem auto;
-	max-width: 50rem;
-}
-
-/* Footer styles */
-footer {
-	background-color: #0077cc;
-	color: #fff;
-	padding: 1rem;
-	text-align: center;
-}
-
-footer p {
-	margin: 0;
-	font-size: 1.2rem;
+#network {
+  background-image: url('https://media.giphy.com/media/Udc73xTDIWnhtvgpoC/giphy-downsized-large.gif');
+  background-size: cover;
 }
